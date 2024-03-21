@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('MainStructure.home');
+    return view('mains.home');
+});
+
+Route::get('/comics', function () {
+    return view('mains.comics');
 });
