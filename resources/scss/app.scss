@@ -67,8 +67,11 @@ a {
 
 .center-footer {
     background-image: url("/public/footer-bg.jpg");
-    height: 300px;
+    max-height: 480px;
     color: white;
+    padding: 30px 0;
+    display: flex;
+    justify-content: end;
 
     li {
         color: lightgray;
@@ -78,4 +81,30 @@ a {
 .center-footer ul {
     display: flex;
     flex-direction: column;
+    height: fit-content;
+    width: min-content;
+    flex-grow: 0;
+}
+
+#center-footer-container {
+    max-height: 480px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: start;
+}
+
+.rights-section a {
+    color: blue;
+}
+
+.newsletter-and-socials {
+    background-color: hsl(0deg 0% 18.82%);
+
+    .container {
+        height: 100px;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
