@@ -12,5 +12,20 @@
   </div>
 </div>
 
+<div class="container-fluid center-footer">
+<div class="container">
+    <ul> <h4>DC COMICS</h4>
+        <li>Characters</li>
+        <li>Comics</li>
+        <li>Movies</li>
+        <li>TV</li>
+        <li>Games</li>
+        <li>Videos</li>
+        <li>News</li>
+    </ul>
+
+</div>
+</div>
+
 
 </footer>
