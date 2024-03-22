@@ -1,5 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 
+/* generals */
+
+.container-fluid {
+    padding: 0;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -9,3 +15,52 @@ li {
     display: inline-block;
     margin-right: 20px;
 }
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.button-bluewhite {
+    padding: 10px 50px;
+    background-color: hsl(208.91deg 98.41% 49.22%);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* header */
+
+.towards-payments {
+    background-color: hsl(208.91deg 98.41% 49.22%);
+    padding: 5px 0;
+    color: white;
+}
+
+.jumbo {
+    height: 400px;
+    position: relative;
+}
+
+.jumbo-img {
+    top: 0;
+    z-index: -2;
+    position: absolute;
+}
+
+.label-current-series {
+    bottom: -30px;
+    left: 15vw;
+    position: absolute;
+    padding: 15px;
+    background-color: hsl(208.91deg 98.41% 49.22%);
+    color: white;
+}
+
+/* main */
+
+.container-main {
+    background-color: hsl(0deg 0% 10.98%);
+}
+
+/* footer */
