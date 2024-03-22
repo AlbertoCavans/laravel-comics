@@ -79,6 +79,16 @@
     </button>
     </div>
 
+    <div>
+        <ul> <h4 class="text-primary">FOLLOW US</h4>
+            <li><a href="#"><img src="{{ url("/footer-facebook.png") }}" alt=""></a></li>
+            <li><a href="#"><img src="{{ url("/footer-twitter.png") }}" alt=""></a></li>
+            <li><a href="#"><img src="{{ url("/footer-youtube.png") }}" alt=""></a></li>
+            <li><a href="#"><img src="{{ url("/footer-pinterest.png") }}" alt=""></a></li>
+            <li><a href="#"><img src="{{ url("/footer-periscope.png") }}" alt=""></a></li>
+        </ul>
+    </div>
+
   </div>
 </div>
 
