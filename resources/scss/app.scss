@@ -64,3 +64,18 @@ a {
 }
 
 /* footer */
+
+.center-footer {
+    background-image: url("/public/footer-bg.jpg");
+    height: 300px;
+    color: white;
+
+    li {
+        color: lightgray;
+    }
+}
+
+.center-footer ul {
+    display: flex;
+    flex-direction: column;
+}
