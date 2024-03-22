@@ -59,8 +59,43 @@ a {
 
 /* main */
 
+/*!!!!! main home */
+
+.introduction a {
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+/*!!!!! main comics */
 .container-main {
     background-color: hsl(0deg 0% 10.98%);
+}
+
+/*!!!!! main singleComics */
+
+.single-comics-container {
+    height: 600px;
+    background-color: white;
+
+    img {
+        height: 450px;
+    }
+}
+
+.buy-bar {
+    height: 50px;
+    color: white;
+    background-color: hsl(122.38deg 42.26% 53.14%);
+    border-bottom: 2px solid gray;
+}
+
+.buy-info {
+    flex-grow: 1;
+}
+
+.buy {
+    border-left: 2px solid gray;
+    height: 100%;
 }
 
 /* footer */
