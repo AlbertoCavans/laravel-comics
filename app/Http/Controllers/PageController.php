@@ -13,4 +13,9 @@ class PageController extends Controller
         $comics = config('comics');
         return view('mains.comics', compact('comics'));
     }
+    public function singleComics($index) {
+        $comics = config('comics');
+        $comic = $comics[$index];
+        return view('mains.singleComics', compact('comic'));
+    }
 }
