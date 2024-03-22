@@ -7,10 +7,14 @@
 <div class="container py-5">
 
     <div class="row">
-    @foreach ($comics as $comic)
+    @foreach ($comics as $index => $comic)
 
         <div class="col-2">
-            <img src="{{ $comic["thumb"] }}" alt="{{ $comic["title"] }}" height="300px" class="object-fit-cover w-100">
+            <a href="{{ route('singleComics', [
+            'index' => $index,
+            ]) }}">
+              <img src="{{ $comic["thumb"] }}" alt="{{ $comic["title"] }}" height="300px" class="object-fit-cover w-100">        
+            </a>
             <h5 class="text-light">{{ $comic["series"] }}</h5>
         </div>
     <!-- @dump($comic) -->
